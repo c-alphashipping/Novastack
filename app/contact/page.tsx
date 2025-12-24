@@ -142,8 +142,17 @@ export default function ContactPage() {
                         <MessageSquare className="w-6 h-6 text-blue-400" />
                       </div>
                       <div>
-                        <h3 className="text-white font-semibold mb-1">Phone</h3>
-                        <p className="text-gray-400 text-sm">+91 8422802008</p>
+                        <h3 className="text-white font-semibold mb-1">Chat on WhatsApp</h3>
+                          <p className="text-gray-400 text-sm">
+                            <a
+                              href="https://wa.me/918422802008"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="hover:text-green-400 transition-colors"
+                            >
+                              +91 842 280 2008
+                            </a>
+                          </p>
                       </div>
                     </div>
                   </div>
