@@ -84,6 +84,52 @@ export default function WebsiteAuditPage() {
       <div className="fixed inset-0 bg-gradient-to-br from-black via-blue-950 to-purple-950" />
       <div className="fixed inset-0 bg-[url('/grid.svg')] opacity-20" />
 
+      {/* Hero Section */}
+<section className="relative z-10 pt-32 pb-24 px-4">
+  <div className="max-w-7xl mx-auto">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="text-center max-w-4xl mx-auto"
+    >
+      {/* Badge */}
+      <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/30 text-green-400 text-sm font-medium mb-6">
+        <CheckCircle2 className="w-4 h-4" />
+        100% Free • No Strings Attached
+      </div>
+
+      {/* Heading */}
+      <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+        Get a Free
+        <br />
+        <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+          Website Audit
+        </span>
+      </h1>
+
+      {/* Subtitle */}
+      <p className="text-xl text-gray-300 leading-relaxed mb-10">
+        I’ll review your website and show you exactly what’s holding it back —
+        design, speed, SEO, conversions, and AI opportunities.
+      </p>
+
+      {/* CTA */}
+      <Button
+        onClick={() =>
+          document
+            .getElementById("audit-form")
+            ?.scrollIntoView({ behavior: "smooth" })
+        }
+        className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-8 py-6 text-lg h-auto shadow-lg shadow-blue-500/20"
+      >
+        Request Free Audit
+        <ArrowRight className="w-5 h-5 ml-2" />
+      </Button>
+    </motion.div>
+  </div>
+</section>
+
       <div className="relative z-10">
  {/* What I Review Section */}
         <section className="py-20 px-4">
