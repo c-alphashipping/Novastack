@@ -142,8 +142,8 @@ export default function ContactPage() {
                         <MessageSquare className="w-6 h-6 text-blue-400" />
                       </div>
                       <div>
-                        <h3 className="text-white font-semibold mb-1">Response Time</h3>
-                        <p className="text-gray-400 text-sm">Within 24 hours</p>
+                        <h3 className="text-white font-semibold mb-1">Phone</h3>
+                        <p className="text-gray-400 text-sm">+91 8422802008</p>
                       </div>
                     </div>
                   </div>

@@ -375,7 +375,7 @@ export default function WebsiteAuditPage() {
                   Request Received!
                 </h3>
                 <p className="text-gray-300">
-                  I’ll review your website and send your audit within 24 hours.
+                  I’ll review your website and send your audit.
                 </p>
               </motion.div>
             )}
@@ -397,7 +397,7 @@ export default function WebsiteAuditPage() {
                     Request Sent Successfully 🚀
                   </h3>
                   <p className="text-gray-400 mb-6">
-                    Your free website audit will be delivered within 24 hours.
+                    Your free website audit will be delivered.
                   </p>
                 </>
               ) : (

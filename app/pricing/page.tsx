@@ -72,7 +72,7 @@ const maintenancePlans = [
     features: [
       "AI optimization",
       "Feature updates",
-      "24/7 priority support",
+      "priority support",
       "Security hardening",
       "Weekly reports",
       "Dedicated manager",
