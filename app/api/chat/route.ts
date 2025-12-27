@@ -61,7 +61,7 @@ WHY CHOOSE US:
 - SEO & performance optimization included
 
 CONTACT PROCESS:
-Clients can reach out through the contact form on the /contact page or by email. We respond within 24 hours.
+Clients can reach out through the contact form on the /contact page or by email.
 
 If you don't know the answer or the question is outside this scope, say:
 "For custom requirements or more details, please contact us through the contact form."
@@ -139,7 +139,7 @@ async function generateResponse(userMessage: string): Promise<string> {
 
   // Contact queries
   if (messageLower.includes("contact") || messageLower.includes("reach") || messageLower.includes("email")) {
-    return "You can reach out through the Contact page on this website. Fill out the form with your name, email, and project details. I respond to all inquiries within 24 hours. Looking forward to hearing about your project!"
+    return "You can reach out through the Contact page on this website. Fill out the form with your name, email, and project details. Looking forward to hearing about your project!"
   }
 
   // Why choose queries

@@ -12,8 +12,8 @@ export function Header() {
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "Services", href: "/services" },
-    { name: "Pricing", href: "/pricing" },
+    { name: "Solutions", href: "/solutions" },
+    { name: "AI Agents", href: "/ai-agents" },
     { name: "AI Integration", href: "/ai-integration" },
     { name: "Website Audit", href: "/website-audit" },
     { name: "Contact", href: "/contact" },
