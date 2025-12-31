@@ -170,7 +170,7 @@ export function Hero() {
                 </Button>
               </motion.div>
             </Link>
-            <Link href="/pricing">
+            <Link href="/solutions">
               <motion.div whileHover={{ scale: 1.05, y: -2 }} whileTap={{ scale: 0.98 }}>
                 <Button
                   size="lg"

@@ -3,6 +3,7 @@
 import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
 import { Services } from "@/components/services"
+import { AIAgents } from "@/components/ai-agents"
 import { AIIntegration } from "@/components/ai-integration"
 import { AIValueMultiplier } from "@/components/ai-value-multiplier"
 import { MaintenancePlans } from "@/components/maintenance-plans"
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <AIAgents/>
       <AIIntegration />
       <AIValueMultiplier />
       <MaintenancePlans />

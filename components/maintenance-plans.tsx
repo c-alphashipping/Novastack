@@ -122,9 +122,10 @@ export function MaintenancePlans() {
                       </li>
                     ))}
                   </ul>
-
-                  <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white">
-                    Choose Plan
+                  <Button
+                    asChild
+                    className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white">
+                    <a href="/contact">Choose Plan</a>
                   </Button>
                 </CardContent>
               </Card>
